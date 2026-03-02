@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@fontsource/cardo'
+	import '@fontsource/cardo';
 	import '@fontsource/libertinus-keyboard';
 	import '@fontsource-variable/jetbrains-mono';
 	let { children } = $props();
@@ -10,7 +10,7 @@
 		<a href="/" class="nav-link">Home</a>
 		<ul>
 			<li><a class="nav-link" href="/grammar">Grammar</a></li>
-			<li><a class="nav-link" href="/tutorial">Tutorial</a></li>
+			<!-- <li><a class="nav-link" href="/tutorial">Tutorial</a></li> -->
 			<li><a class="nav-link" href="/playground">Playground</a></li>
 		</ul>
 	</nav>
@@ -32,7 +32,7 @@
 			font-family: 'Cardo', serif;
 		}
 
-		.page-content-container{
+		.page-content-container {
 			max-width: 800px;
 			margin: auto;
 			padding: 3rem 0;
@@ -43,7 +43,8 @@
 			font-size: 2.5rem;
 		}
 
-		p, a {
+		p,
+		a {
 			line-height: 2rem;
 			font-size: 1.1rem;
 		}
